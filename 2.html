@@ -4,29 +4,56 @@
   <title>WEB-Baroque</title>
   <meta charset="utf-8">
   <style>
+  body{
+    margin: 0px;
+  }
   a{
     color:#E665AB;
     text-decoration: none;
   }
   h1{
     font-size: 20px;
+    border-bottom:1px solid gray;
+    margin: 0px;
+    padding: 10px;
+    }
+    ol{
+      border-right:1px solid gray;
+      width:100px;
+      margin: 0px;
+      padding: 20px;
+    }
+    li, h2{
+      margin: 3px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    p{
+      margin: 5px;
+      width: 750px;
+    }
+    img{
+      padding:5px;
     }
   </style>
 </head>
 <body>
-  <h1><a href="index.html" style="color:#DADCE2">before</h1>
-<ol>
-  <li><a href="1.html">Renaissance</a></li>
-  <li><a href="2.html" style="color:black; text-decoration:underline;;">Baroque</a></li>
-  <li><a href="3.html">Rococo</a></li>
-</ol>
-<p>
-  <img src="http://2.bp.blogspot.com/-nXtj4Bw4OlA/USWYPQeVRNI/AAAAAAAAALA/9PgEnKX4QJk/s1600/baroque-art-02.jpg" height="315">
-</p>
-
-<h2><strong><a href="https://terms.naver.com/entry.naver?docId=260619&cid=42635&categoryId=42635" target="_blank" title="바로크" style="color:black; text-decoration:underline;">Baroque &#127880;</a></strong></h2>
-<p>포르투갈어의 ‘비뚤어진 진주’라는 뜻으로 1600~1750년 사이의 유럽 미술양식을 말한다. 르네상스의 단정하고 우아한 고전양식에 비하여 장식이 지나치고 과장된 건축과 조각에 대한 경멸의 뜻으로 사용되었다. 그러나 지금은 르네상스에 대립하는 개념으로 팽창하는 17세기 유럽의 시대정신과 발맞추어 외향적이고 격동적이며 회화에서는 격렬한 명암대비와 풍요로운 경향을 보인다. 바로크 회화의 창시자로는 17세기 초 이탈리아의 카라바조가 있었고 그의 영향은 곧 스페인과 북유럽으로 퍼져 그 추종자를 ‘카라바 제스키’라 불렀다. 특히 루벤스， 렘브란트를 낳은 플랑드르와 네덜란드는 바로크의 중심지가 되었으며， 스페인에서는 벨라스케스， 수르바란 등이 활동하였다. 조각에는 이탈리아의 잔 로렌초 베르니니가 대표적인 작가. 이들은 동적，환각적인 표현으로 「성 테레사의 도취」나 「성베드로 성당」의 내부장식과 광장의 콜로네이드를 완성하여 바로크 최대의 조각가로 군림하였다. 프랑스에서는 니콜라 푸생 같은 작가가 있었으나 오히려 르네상스적인 〈루이 14세 양식〉이 성행하였다.
-</p>
-
+  <h1><a href="index.html" style="color:#DADCE2">before</a></h1>
+    <div id="grid">
+      <ol>
+        <li><a href="1.html">Renaissance</a></li>
+        <li><a href="2.html" style="color:black; text-decoration:underline;">Baroque</a></li>
+        <li><a href="3.html">Rococo</a></li>
+      </ol>
+          <div>
+            <img src="http://2.bp.blogspot.com/-nXtj4Bw4OlA/USWYPQeVRNI/AAAAAAAAALA/9PgEnKX4QJk/s1600/baroque-art-02.jpg" height="500">
+            <h2><a href="https://terms.naver.com/entry.naver?docId=260619&cid=42635&categoryId=42635" target="_blank" title="바로크" style="color:black;">Baroque &#127880;</a></strong></h2>
+              <p>
+                포르투갈어의 ‘비뚤어진 진주’라는 뜻으로 1600~1750년 사이의 유럽 미술양식을 말한다. 르네상스의 단정하고 우아한 고전양식에 비하여 장식이 지나치고 과장된 건축과 조각에 대한 경멸의 뜻으로 사용되었다. 그러나 지금은 르네상스에 대립하는 개념으로 팽창하는 17세기 유럽의 시대정신과 발맞추어 외향적이고 격동적이며 회화에서는 격렬한 명암대비와 풍요로운 경향을 보인다. 바로크 회화의 창시자로는 17세기 초 이탈리아의 카라바조가 있었고 그의 영향은 곧 스페인과 북유럽으로 퍼져 그 추종자를 ‘카라바 제스키’라 불렀다. 특히 루벤스， 렘브란트를 낳은 플랑드르와 네덜란드는 바로크의 중심지가 되었으며， 스페인에서는 벨라스케스， 수르바란 등이 활동하였다. 조각에는 이탈리아의 잔 로렌초 베르니니가 대표적인 작가. 이들은 동적，환각적인 표현으로 「성 테레사의 도취」나 「성베드로 성당」의 내부장식과 광장의 콜로네이드를 완성하여 바로크 최대의 조각가로 군림하였다. 프랑스에서는 니콜라 푸생 같은 작가가 있었으나 오히려 르네상스적인 〈루이 14세 양식〉이 성행하였다.
+              </p>
+          </div>
+    </div>
 </body>
 </html>
